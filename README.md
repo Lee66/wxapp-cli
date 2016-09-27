@@ -11,13 +11,15 @@
 
 2.可使用ES6或ES5
 
-3.可使用sass
+3.支持sass和less
 
-4.可以同时编写`.html|.wxml`，`.wxss|.scss` 文件，最后都会转换为`.wxml`和`.wxss`
+4.可以同时编写`.html|.wxml`，`.wxss|.scss|.less` 文件，最后都会转换为`.wxml`和`.wxss`
 
 5.编写完任何文件（包括.json）只需要去微信开发者工具中点击重启即可预览
 
-6.NODE_ENV 环境切换
+6.NODE_ENV 环境切换 (dev|production)
+
+7.支持eslint (在gulpfile文件打开36行注释即可,下个版本会集成到cli配置选项中)
 
 #### 劣势
 
